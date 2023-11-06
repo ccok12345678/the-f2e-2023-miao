@@ -32,7 +32,6 @@
   }
 
   h5 {
-    font-size: 1.25rem;
     @apply font-normal text-xl leading-normal
   }
 
@@ -42,5 +41,9 @@
 
   p {
     @apply font-normal text-base leading-7
+  }
+
+  a {
+    @apply focus:text-neutral-02 hover:text-neutral-02 leading-7
   }
 }
