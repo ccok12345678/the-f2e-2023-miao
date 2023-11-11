@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import { useContentStore } from './stores/content'
-
-const { title } = useContentStore()
 
 </script>
 
@@ -10,4 +7,3 @@ const { title } = useContentStore()
     <NuxtPage />
   </NuxtLayout>
 </template>
-./stores/content.js

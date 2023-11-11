@@ -39,7 +39,7 @@
     @apply font-normal text-base leading-normal
   }
 
-  p {
+  p, article {
     @apply font-normal text-base leading-7
   }
 

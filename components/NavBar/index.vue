@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-  import { useImgContentStore, useContentStore } from '#imports'
   import { onClickOutside,   } from '@vueuse/core'
 
   const { logoImg } = useImgContentStore()
@@ -30,7 +29,7 @@
 
 <template>
   <nav class="bg-transparent">
-    <div class="fixed top-0 left-0 right-0 flex bg-transparent">
+    <div class="fixed top-0 left-0 right-0 flex bg-transparent  backdrop-blur-sm">
 
       <a v-if="!isMenuActive" href="javascript:void(0)" title="menu" @click="toggleMenu()" class="m-3 mr-[-35px] sm:hidden">
         <ShareMenuIcon />
